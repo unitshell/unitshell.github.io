@@ -19,6 +19,8 @@ shadow-cljs version:  2.26.7
 shadow-cljs - updating dependencies
 shadow-cljs - dependencies updated
 [better-cond "2.1.5" :exclusions [[com.cognitect/transit-java] [org.clojure/clojure] [thheller/shadow-cljs] [org.clojure/clojurescript] [com.cognitect/transit-clj] [org.clojure/core.async]]]
+[com.cognitect/transit-cljs "0.8.280" :exclusions [[com.cognitect/transit-java] [org.clojure/clojure] [thheller/shadow-cljs] [org.clojure/clojurescript] [com.cognitect/transit-clj] [org.clojure/core.async]]]
+[com.cognitect/transit-js "0.8.874"]
 [funcool/promesa "11.0.678" :exclusions [[com.cognitect/transit-java] [org.clojure/clojure] [thheller/shadow-cljs] [org.clojure/clojurescript] [com.cognitect/transit-clj] [org.clojure/core.async]]]
 [keybind "2.2.0" :exclusions [[com.cognitect/transit-java] [org.clojure/clojure] [thheller/shadow-cljs] [org.clojure/clojurescript] [com.cognitect/transit-clj] [org.clojure/core.async]]]
 [lambdaisland/ansi "0.2.37" :exclusions [[com.cognitect/transit-java] [org.clojure/clojure] [thheller/shadow-cljs] [org.clojure/clojurescript] [com.cognitect/transit-clj] [org.clojure/core.async]]]
@@ -32,8 +34,6 @@ shadow-cljs - dependencies updated
 [org.clojure/clojure "1.11.1"]
   [org.clojure/core.specs.alpha "0.2.62"]
   [org.clojure/spec.alpha "0.3.218"]
-[com.cognitect/transit-cljs "0.8.280"]
-  [com.cognitect/transit-js "0.8.874"]
 [org.clojure/google-closure-library "0.0-20230227-c7c0a541"]
 [thheller/shadow-cljsjs "0.0.22"]
 [org.clojure/core.async "1.5.648"]
