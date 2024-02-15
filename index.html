@@ -7,11 +7,31 @@
     <link rel="stylesheet" type="text/css" href="css/tailwind_out.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto%20Sans%20KR">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nanum%20Gothic">
-    <title>mlib-190</title>
+    <!-- <script type="text/javascript" src="sw.js"></script> -->
+    <script type="importmap">
+      {
+        "imports": {
+          "react": "https://esm.sh/react@18.2.0",
+          "react-dom": "https://esm.sh/react-dom@18.2.0"
+        }
+      }
+    </script>
+    <script type="module">
+      import ReactDOM from "react-dom";
+      import React from "react";
+      globalThis.ReactDOM = ReactDOM;
+      globalThis.React = React;
+      globalThis.dynamicImport = mod => { return import(mod); }
+    </script>
+    <title>mlib-191</title>
   </head>
   <body>
     <div id="app_root">
     </div>
-    <script src="shadow-js-prod/main.js"></script>
+    <script type="module">
+      import M from "./shadow-js/main.js";
+      console.log("M", M);
+      M.app.init();
+    </script>
   </body>
 </html>
