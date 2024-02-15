@@ -1,0 +1,104 @@
+=== npm package
+cli:                  2.26.7
+config-version:       2.26.7
+
+=== shadow-cljs version (via npm)
+shadow-cljs version:  2.26.7
+
+=== Java
+
+=== Source Paths
+/home/runner/work/mlib/mlib/src-util
+/home/runner/work/mlib/mlib/shared
+/home/runner/work/mlib/mlib/lib/subkit/src
+/home/runner/work/mlib/mlib/lib/dockit/src
+/home/runner/work/mlib/mlib/web/src
+/home/runner/work/mlib/mlib/link/src
+
+=== Dependencies
+shadow-cljs - updating dependencies
+shadow-cljs - dependencies updated
+[better-cond "2.1.5" :exclusions [[com.cognitect/transit-java] [org.clojure/clojure] [thheller/shadow-cljs] [org.clojure/clojurescript] [com.cognitect/transit-clj] [org.clojure/core.async]]]
+[funcool/promesa "11.0.678" :exclusions [[com.cognitect/transit-java] [org.clojure/clojure] [thheller/shadow-cljs] [org.clojure/clojurescript] [com.cognitect/transit-clj] [org.clojure/core.async]]]
+[keybind "2.2.0" :exclusions [[com.cognitect/transit-java] [org.clojure/clojure] [thheller/shadow-cljs] [org.clojure/clojurescript] [com.cognitect/transit-clj] [org.clojure/core.async]]]
+[lambdaisland/ansi "0.2.37" :exclusions [[com.cognitect/transit-java] [org.clojure/clojure] [thheller/shadow-cljs] [org.clojure/clojurescript] [com.cognitect/transit-clj] [org.clojure/core.async]]]
+[reagent "1.2.0" :exclusions [[com.cognitect/transit-java] [org.clojure/clojure] [thheller/shadow-cljs] [org.clojure/clojurescript] [com.cognitect/transit-clj] [org.clojure/core.async]]]
+[thheller/shadow-cljs "2.26.7" :classifier "aot"]
+[com.bhauman/cljs-test-display "0.1.1"]
+[cider/piggieback "0.5.3" :exclusions [[org.clojure/clojure] [org.clojure/clojurescript] [nrepl]]]
+[io.methvin/directory-watcher "0.17.1"]
+  [net.java.dev.jna/jna "5.12.1"]
+  [org.slf4j/slf4j-api "1.7.36"]
+[org.clojure/clojure "1.11.1"]
+  [org.clojure/core.specs.alpha "0.2.62"]
+  [org.clojure/spec.alpha "0.3.218"]
+[com.cognitect/transit-cljs "0.8.280"]
+  [com.cognitect/transit-js "0.8.874"]
+[org.clojure/google-closure-library "0.0-20230227-c7c0a541"]
+[thheller/shadow-cljsjs "0.0.22"]
+[org.clojure/core.async "1.5.648"]
+  [org.clojure/tools.analyzer.jvm "1.2.2"]
+    [org.clojure/core.memoize "1.0.253"]
+      [org.clojure/core.cache "1.0.225"]
+        [org.clojure/data.priority-map "1.1.0"]
+    [org.clojure/tools.analyzer "1.1.0"]
+    [org.ow2.asm/asm "9.2"]
+[thheller/shadow-undertow "0.3.4"]
+  [io.undertow/undertow-core "2.3.10.Final"]
+    [org.jboss.logging/jboss-logging "3.4.3.Final"]
+    [org.jboss.threads/jboss-threads "3.5.0.Final" :exclusions [[org.wildfly.common/wildfly-common]]]
+    [org.jboss.xnio/xnio-api "3.8.8.Final" :exclusions [[org.jboss.threads/jboss-threads]]]
+      [org.wildfly.client/wildfly-client-config "1.0.1.Final" :exclusions [[org.wildfly.common/wildfly-common]]]
+      [org.wildfly.common/wildfly-common "1.5.4.Final"]
+    [org.jboss.xnio/xnio-nio "3.8.8.Final" :scope "runtime" :exclusions [[org.wildfly.common/wildfly-common]]]
+[com.google.javascript/closure-compiler-unshaded "v20230802"]
+  [com.google.code.gson/gson "2.9.1"]
+  [com.google.guava/guava "31.0.1-jre"]
+    [com.google.code.findbugs/jsr305 "3.0.2"]
+    [com.google.guava/listenablefuture "9999.0-empty-to-avoid-conflict-with-guava"]
+    [com.google.j2objc/j2objc-annotations "1.3"]
+    [org.checkerframework/checker-qual "3.12.0"]
+  [com.google.guava/failureaccess "1.0.1"]
+  [org.jspecify/jspecify "0.2.0"]
+  [com.google.auto.value/auto-value-annotations "1.6"]
+  [javax.annotation/jsr250-api "1.0"]
+  [args4j "2.33"]
+  [com.google.errorprone/error_prone_annotations "2.15.0"]
+  [com.google.protobuf/protobuf-java "3.21.12"]
+  [org.apache.ant/ant "1.10.11"]
+    [org.apache.ant/ant-launcher "1.10.11"]
+  [com.google.re2j/re2j "1.3"]
+[ring/ring-core "1.9.6" :exclusions [[clj-time]]]
+  [commons-fileupload "1.4"]
+  [commons-io "2.11.0"]
+  [crypto-equality "1.0.1"]
+  [crypto-random "1.2.1"]
+    [commons-codec "1.15"]
+  [ring/ring-codec "1.2.0"]
+[hiccup "1.0.5"]
+[org.clojure/tools.reader "1.3.7"]
+[thheller/shadow-client "1.3.3"]
+[fipp "0.6.26"]
+  [org.clojure/core.rrb-vector "0.1.2"]
+[org.clojure/google-closure-library-third-party "0.0-20230227-c7c0a541"]
+[org.clojure/clojurescript "1.11.60" :exclusions [[com.google.javascript/closure-compiler-unshaded] [org.clojure/google-closure-library] [org.clojure/google-closure-library-third-party]]]
+[org.clojure/tools.cli "1.0.206"]
+[org.clojure/data.json "2.4.0"]
+[nrepl "1.0.0"]
+[com.cognitect/transit-clj "1.0.329"]
+  [com.cognitect/transit-java "1.0.362"]
+    [com.fasterxml.jackson.core/jackson-core "2.8.7"]
+    [javax.xml.bind/jaxb-api "2.3.0"]
+    [org.msgpack/msgpack "0.6.12"]
+      [com.googlecode.json-simple/json-simple "1.1.1" :exclusions [[junit]]]
+      [org.javassist/javassist "3.18.1-GA"]
+[expound "0.9.0"]
+[thheller/shadow-util "0.7.0"]
+[zprint "1.2.8" :exclusions [[com.cognitect/transit-java] [org.clojure/clojure] [thheller/shadow-cljs] [org.clojure/clojurescript] [com.cognitect/transit-clj] [org.clojure/core.async]]]
+[org.babashka/sci "0.8.40"]
+  [borkdude/edamame "1.3.22"]
+  [borkdude/sci.impl.reflector "0.0.1"]
+  [org.babashka/sci.impl.types "0.0.2"]
+[rewrite-clj "1.1.47"]
+
+
