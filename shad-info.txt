@@ -8,7 +8,7 @@ shadow-cljs version:  2.26.7
 === Java
 
 === Source Paths
-/home/runner/work/mlib/mlib/src-util
+/home/runner/work/mlib/mlib/s0
 /home/runner/work/mlib/mlib/shared
 /home/runner/work/mlib/mlib/lib/subkit/src
 /home/runner/work/mlib/mlib/lib/dockit/src
