@@ -705,7 +705,7 @@
   :warning 25,
   :info 0,
   :type :summary,
-  :duration 1032,
+  :duration 994,
   :files 48},
  :analysis
  {:namespace-definitions
